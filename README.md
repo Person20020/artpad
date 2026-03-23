@@ -3,6 +3,8 @@ This is the Artpad, a macro pad created created to be compatible with the [artse
 The features of this macro pad include an expansion port with easy access to the gpio of the Seeed Xiao RP2040 so that with only a small change to the firmware, add a new module can be added to the board to extend its functionality. This can include things like extra keys, rotary encoders, or even oled screens or leds.  
 The Artpad was designed with asthetics in mind. It has a window in the plate to give a view of the pcb, where there is a neatly lined up row of diodes and the microcontroller. This also allows easy access to the reset and bootloader buttons for a much easier time updating firmware. It may also be possible to add rgb funcionality to this board because the Seeed Xiao RP2040 has a built-in neopixel led.  
 
+![artpad](https://github.com/user-attachments/assets/b85ddf69-aab8-4578-a0fe-50531b8d65a1)
+
 ![Artpad_front](https://github.com/user-attachments/assets/416c0d17-56d7-4888-9174-a453d4cc3bfa)
 
 ![Artpad_angle2](https://github.com/user-attachments/assets/8bc669ec-5949-454f-bbb4-294408ddb023)
@@ -19,7 +21,7 @@ The Artpad was designed with asthetics in mind. It has a window in the plate to 
 
 # BOM  
 ### PCB
-- 8 MX switches (preferably something with a very light spring, under 40 grams)
+- 8 MX switches
 - 8 Kalih MX hotswap sockets
 - 1 2x7 horizontal female 2.54mm header (digikey part number S5560-ND)
 - 1 Seeed Xiao RP2040 microcontroler
@@ -32,5 +34,3 @@ The Artpad was designed with asthetics in mind. It has a window in the plate to 
 - 1 plate
 - 1 case
 - 1 plate rim
-
-Because this uses surface mount hotswap sockets I am perfectly fine with soldering everything myself.
